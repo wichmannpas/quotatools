@@ -9,7 +9,7 @@ quota_command = ['repquota', '-ua']
 user_blacklist = []
 base = 1024  # whether SI or Microsoft base should be used
 block_size = 1024
-base_string = '{:30s}: {: >10s}{: >3s}/{: >10s}{: >3s} ({:5f}%)'
+base_string = '{:30s}: {: >10s}{: >3s}/{: >10s}{: >3s} ({:5%})'
 
 
 def parse():
