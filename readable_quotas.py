@@ -27,6 +27,8 @@ def parse():
         if not match:
             continue
         data = match.groupdict()
+        if data['username'] in user_blacklist:
+            continue
         all_users.append(data)
 
     return all_users
