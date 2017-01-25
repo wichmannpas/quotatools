@@ -5,7 +5,7 @@ import subprocess
 import re
 
 
-quota_command = ['cat', 'dummy']
+quota_command = ['repquota', '-ua']
 user_blacklist = []
 base = 1024  # whether SI or Microsoft base should be used
 block_size = 1024
